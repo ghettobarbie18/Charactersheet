@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 40px 0;
+    background: #111111;
+    font-family: Georgia, serif;
+    color: #EEEEEE;
+}
+
+.charactersheet {
+    position: relative;
+    width: 750px;
+    height: 700px;
+    margin: auto;
+}
+
+/* TOP IMAGE */
+
+.top-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 250px;
+    background: url("https://i.pinimg.com/736x/9d/c6/d8/9dc6d8ec1f21667cd9569284cc903475.jpg") center/cover;
+    border: 8px double #51050F;
+}
+
+/* LINEAGE TITLE */
+
+.lineage-title {
+    position: absolute;
+    top: 250px;
+    left: 0;
+    width: 212px;
+    padding: 5px;
+    font-family: "Book Antiqua", Georgia, serif;
+    font-size: 12pt;
+    color: #FFEE82;
+    text-shadow: 0 4px 0 #B31313;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* DEADLINE */
+
+.deadline {
+    position: absolute;
+    top: 280px;
+    left: 0;
+    width: 220px;
+    height: 106px;
+    padding: 6px;
+    background: #343131;
+    border: 3px solid #51050F;
+    font-size: 9pt;
+    text-align: center;
+    overflow: auto;
+}
+
+/* STARS */
+
+.stars {
+    position: absolute;
+    top: 370px;
+    left: 40px;
+    font-size: 20pt;
+    letter-spacing: 8px;
+    color: #B31313;
+    text-align: center;
+}
+
+/* DEAL TITLE */
+
+.deal-title {
+    position: absolute;
+    top: 408px;
+    left: 0;
+    width: 368px;
+    height: 50px;
+    padding: 10px;
+    background: #8C0000;
+    font-family: "Book Antiqua", Georgia, serif;
+    font-size: 7pt;
+    color: #FFEE82;
+    text-shadow: 0 0 5px #B31313;
+    text-transform: uppercase;
+    text-align: center;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+/* BROTHER SLOTS */
+
+.brother-slots {
+    position: absolute;
+    top: 440px;
+    left: 0;
+    width: 374px;
+    height: 220px;
+    padding: 10px;
+    background: #343131;
+    border: 3px solid #51050F;
+    font-size: 9pt;
+    text-align: justify;
+    overflow: auto;
+}
+
+/* RIGHT TITLE */
+
+.kill-title {
+    position: absolute;
+    top: 408px;
+    right: 45px;
+    width: 375px;
+    height: 50px;
+    padding: 10px;
+    background: #8C0000;
+    font-family: "Book Antiqua", Georgia, serif;
+    font-size: 7.5pt;
+    color: #FFEE82;
+    text-shadow: 0 0 5px #B31313;
+    text-transform: uppercase;
+    text-align: center;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+/* IMPORTANT NOTES */
+
+.important-notes {
+    position: absolute;
+    top: 460px;
+    right: 45px;
+    width: 378px;
+    height: 220px;
+    padding: 10px;
+    background: #343131;
+    border: 3px solid #51050F;
+    font-size: 9pt;
+    text-align: justify;
+    overflow: auto;
+}
+
+/* MAIN INFORMATION BOX */
+
+.main-info {
+    position: absolute;
+    top: 62px;
+    left: 210px;
+    width: 326px;
+    height: 426px;
+    padding: 10px;
+    background: #343131;
+    border: 3px solid #51050F;
+    font-size: 9pt;
+    color: #EEEEEE;
+    text-align: justify;
+    overflow: auto;
+}
+
+.weapon-quote {
+    text-align: center;
+}
+
+.weapon-quote strong {
+    color: #C10300;
+}
+
+/* TO CONSIDER */
+
+.consider {
+    position: absolute;
+    top: 59px;
+    right: 42px;
+    width: 217px;
+    height: 256px;
+    padding: 10px;
+    background: #343131;
+    border: 3px solid #51050F;
+    font-size: 9pt;
+    text-align: justify;
+    color: #EEEEEE;
+    overflow: auto;
+}
+
+/* BOTTOM IMAGE */
+
+.bottom-image {
+    position: absolute;
+    top: 295px;
+    right: 45px;
+    width: 201px;
+    height: 184px;
+    background: url("https://i.pinimg.com/736x/97/69/8f/97698f471d2e928babe23bbf75b8868d.jpg") center/cover;
+    border: 8px double #51050F;
+}
