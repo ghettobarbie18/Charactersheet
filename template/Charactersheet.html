@@ -1,1 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Charactersheet</title>
 
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 40px 0;
+    background: #111111;
+    font-family: Georgia, serif;
+    color: #EEEEEE;
+}
+
+.charactersheet {
+    position: relative;
+    width: 750px;
+    height: 700px;
+    margin: auto;
+}
+
+/* TOP IMAGE */
+
+.top-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 250px;
+    background: url("https://i.pinimg.com/736x/9d/c6/d8/9dc6d8ec1f21667cd9569284cc903475.jpg") center/cover;
+    border: 8px double #51050F;
+}
+
+/* TITLE */
+
+.lineage-title {
+    position: absolute;
+    top: 250px;
+    left: 0;
+    width: 212px;
+    padding: 5px;
+    font-family: "Book Antiqua", Georgia, serif;
+    font-size: 12pt;
+    color: #FFEE82;
+    text-shadow: 0 4px 0 #B31313;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* DEADLINE BOX */
+
+.deadline {
+    position: absolute;
+    top: 280px;
+    left: 0;
+    width: 220px;
+    height: 106px;
+    padding: 6px;
+    background: #343131;
+    border: 3px solid #51050F;
+    font-size: 9pt;
+    text-align: center;
+    overflow: auto;
+}
+
+/* STARS */
+
+.stars {
+    position: absolute;
+    top: 370px;
+    left: 40px;
+    font-size: 20pt;
+    letter-spacing: 8px;
+    color: #B31313;
+    text-align: center;
+}
+
+/* LEFT RED HEADER */
+
+.deal-title {
+    position: absolute;
+    top: 408px;
+    left: 0;
+    width: 368px;
+    height: 50px;
+    padding: 10px;
+    background: #8C0000;
+    font-family: "Book Antiqua", Georgia, serif;
+    font-size: 7pt;
+    color: #FFEE82;
+    text-shadow: 0 0 5px #B31313;
+    text-transform: uppercase;
+    text-align: center;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+/* BROTHER SLOTS */
+
+.brother-slots {
+    position: absolute;
+    top: 440px;
+    left: 0;
+    width: 374px;
+    height: 220px;
+    padding: 10px;
+    background: #343131;
+    border: 3px solid #51050F;
+    font-size: 9pt;
+    text-align: justify;
+    overflow: auto;
+}
+
+/* RIGHT RED HEADER */
+
+.kill-title {
+    position: absolute;
+    top: 408px;
+    right: 45px;
+    width: 375px;
+    height: 50px;
+    padding: 10px;
+    background: #8C0000;
+    font-family: "Book Antiqua", Georgia, serif;
+    font-size: 7.5pt;
+    color: #FFEE82;
+    text-shadow: 0 0 5px #B31313;
+    text-transform: uppercase;
+    text-align: center;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+/* IMPORTANT NOTES */
+
+.important-notes {
+    position: absolute;
+    top: 460px;
+    right: 45px;
+    width: 378px;
+    height: 220px;
+    padding: 10px;
+    background: #343131;
+    border: 3px solid #51050F;
+    font-size: 9pt;
+    text-align: justify;
+    overflow: auto;
+}
+
+/* CENTER INFORMATION */
+
+.main-info {
+    position: absolute;
+    top: 62px;
+    left: 210px;
+    width: 326px;
+    height: 426px;
+    padding: 10px;
+    background: #343131;
+    border: 3px solid #51050F;
+    font-size: 9pt;
+    color: #EEEEEE;
+    text-align: justify;
+    overflow: auto;
+}
+
+.weapon-quote {
+    text-align: center;
+}
+
+.weapon-quote strong {
+    color: #C10300;
+}
+
+/* TO CONSIDER BOX */
+
+.consider {
+    position: absolute;
+    top: 59px;
+    right: 42px;
+    width: 217px;
+    height: 256px;
+    padding: 10px;
+    background: #343131;
+    border: 3px solid #51050F;
+    font-size: 9pt;
+    text-align: justify;
+    color: #EEEEEE;
+    overflow: auto;
+}
+
+/* BOTTOM IMAGE */
+
+.bottom-image {
+    position: absolute;
+    top: 295px;
+    right: 45px;
+    width: 201px;
+    height: 184px;
+    background: url("https://i.pinimg.com/736x/97/69/8f/97698f471d2e928babe23bbf75b8868d.jpg") center/cover;
+    border: 8px double #51050F;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="skulgarth">
+
+    <div class="top-image"></div>
+
+    <div class="lineage-title">
+        <strong>SKULGARTH LINEAGE</strong>
+    </div>
+
+    <div class="deadline">
+        <strong>DEADLINE</strong> IS <u>AUGUST 1ST</u>!!<br>
+        As of right now only Demonetta's elder brothers are up for grabs!
+    </div>
+
+    <div class="stars">✦ ✦ ✦</div>
+
+    <div class="deal-title">
+        <strong>YOU FEEL LIKE MAKING A <em>DEAL</em> WITH THE <em>DEVIL</em>?</strong>
+    </div>
+
+    <div class="brother-slots">
+        <strong>OLDER BROTHER SLOTS</strong>: <em>names are changeable</em><br><br>
+
+        1. Alcibiades (eldest brother)<br>
+        2. Kamikaze (second eldest)<br>
+        3. Draco (youngest brother)<br>
+        4. Unknown brother (could be a twin to either sibling; including Demo)<br><br>
+
+        <strong>OPTIONAL SLOTS</strong>: <em>names are changeable</em><br><br>
+
+        1. Blythe (mom)<br>
+        2. Ulysses (dad)
+    </div>
+
+    <div class="kill-title">
+        <strong>WHAT DOESN'T <em>KILL</em> <em>ME</em> MIGHT MAKE ME <em>KILL</em> <em>YOU</em>.</strong>
+    </div>
+
+    <div class="important-notes">
+        <strong>Important Notes</strong>: In case anyone is confused on this family, well let's just say they are pretty much a dime a dozen. Considering Demo's father raised them up in a very harrowing fashion, some of the kiddos are a bit crazy and some even developed a taste for their own kind - which is what brings me to the <em>cannibalism</em> side of the family.
+
+        Dark and grueling, I know, but it's an important factor if you're wanting to make a Skulgarth. Demonetta does <strong>NOT</strong> practice cannibalism, even though she was brought up around it and forced to feast upon her own kind, she does not condone it whatsoever.
+
+        But that shouldn't stop you from making one of her brothers (or another family member) a cannibal. It's entirely up to you.
+
+        Another thing to note is that if you wish for your character to be pulled more towards the religious side, the main god the Skulgarth's believe in is Jezelda, however they do often mention a demon quite often, the Wendigo who embodies death and cannibalism.
+
+        More often than not, if you choose for your character to be religious, they could take on ritualistic tendencies which is sacrificing other animals and/or family members to the Wendigo beneath a full moon to also show respect for Jezelda.
+
+        But all of this is completely optional.
+    </div>
+
+    <div class="main-info">
+
+        <div class="weapon-quote">
+            THEY <em>MADE</em> YOU INTO A <strong>WEAPON</strong>,<br>
+            AND <em>TOLD</em> YOU TO FIND <strong>PEACE</strong>.
+        </div>
+
+        <hr>
+
+        <strong>Family Alignment</strong>: Between Lawful evil, Neutral Evil, and Chaotic Evil. But some members are Chaotic Good.<br><br>
+
+        <strong>Religion</strong>: Religious Cult, beliefs vary, though they worship the Goddess Jezelda who is considered the "Mistress of the Hungry Moon". Though worshiping is optional (as Demo doesn't worship any God her family believes in).<br><br>
+
+        <strong>Appearances</strong>: This is pretty open, looks and attributes can go in any direction. So feel free to be as creative as you like with designs! There is one design in particular I'm willing to part with in exchange for a <u>deluxe character pass</u> <strong>OR</strong> a <u>mutation pass</u>.<br><br>
+
+        <strong>Naming Theme</strong>: I don't necessarily have a naming theme, I'd prefer for her brothers names to stay the same but if you wish to change the alias that is fine with me! The names should be a darker tone, or even demon god names - up to you!
+
+    </div>
+
+    <div class="consider">
+
+        <strong>TO CONSIDER</strong>:<br><br>
+
+        ✦ Skills that this family mainly partner with are <strong>FIGHTING</strong> but you are more than welcome to have any other skill or to have them not be a fighter <em>at all</em>, that's ultimately up to you!<br><br>
+
+        ✦ Their father is a stickler for tradition, and traditionally speaking he does not approve of any of his children being BI or GAY. Though it is encouraged for the sake of angst and family drama, I do not care about the sexuality of your character, that's up to you.<br><br>
+
+        ✦ Inheritable mutations to consider; their father did possess a <strong>TITAN</strong> size and <strong>HEAVY</strong> build with large <strong>RAM HORNS</strong> and <strong>DRAGON-LIKE PAWS</strong> and <strong>TAIL</strong> - in essence a literal demon.<br><br>
+
+        ✦ Their mother was of <strong>TOY</strong> size and <strong>LIGHT</strong> build with a rather whimsical look about her as she wore heavy jewelry with a <strong>SERPENTINE-FORKED TONGUE</strong> and <strong>SNAKE EYES</strong>.
+
+    </div>
+
+    <div class="bottom-image"></div>
+
+</div>
+
+</body>
+</html>
